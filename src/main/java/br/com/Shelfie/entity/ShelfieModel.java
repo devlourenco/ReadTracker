@@ -27,7 +27,7 @@ public class ShelfieModel {
     public ShelfieModel() {
     }
 
-    public ShelfieModel(long id, String titulo, String autor, String genero, Integer numPaginas, StatusDeLeitura statusDeLeitura, Avaliacao avaliacao) {
+    public ShelfieModel(Long id, String titulo, String autor, String genero, Integer numPaginas, StatusDeLeitura statusDeLeitura, Avaliacao avaliacao) {
         this.id = id;
         this.titulo = titulo;
         this.autor = autor;
